@@ -23,3 +23,7 @@ res = RestClient.post(
   }
 )
 
+puts res.request.headers.inspect
+puts res
+
+
